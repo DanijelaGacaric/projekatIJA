@@ -1,0 +1,313 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+  }
+  
+  .divovi { 
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+    .navbar {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    background: #ad6effb9;
+    color: #fff;
+    padding: 1rem 0;
+    box-shadow: 10px 0px 20px purple;
+  }
+  
+  .navbar .logo {
+    font-size: 1.5rem;
+    color: #fff;
+    text-decoration: none;
+  }
+  .logo{
+    opacity: 0; 
+    animation: logoo 2s ease-out forwards; 
+    max-width: 100%;
+    height: auto;
+  }
+  @keyframes logoo{
+    0% {
+      opacity: 0;
+      transform: translateY(30px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0); 
+    }
+  }
+    
+  .nav-link {
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    gap: 1.5rem;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .nav-link li a {
+    color: #ffffff;
+    text-decoration: none;
+  }
+  #link:hover {
+    
+
+    transform: scale(1.4); 
+    transition: 0.5s;
+  }
+ 
+  .menu {
+    display: none;
+  }
+  
+  .heder {
+    background: url("slike/slika.jpg") no-repeat center center/cover;
+    color: #ffffff;
+    text-align: center;
+    padding: 5rem 1rem;
+  } 
+  .heder h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+  }
+  .heder1 {
+    background: url("slike/slika.jpg") no-repeat center center/cover;
+    color: #fff;
+    text-align: center;
+    padding: 5rem 1rem;
+  }
+  .heder1 h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+  }
+  .heder .btn {
+    background: #ad6effde;
+    color: #fff;
+    padding: 0.75rem 1.5rem;
+    text-decoration: none;
+    border-radius: 5px;
+  } 
+  .btn:hover{
+    border-radius: 5px;
+    box-shadow: 0 0 15px 5px #903cffde;
+    transform: scale(1.04); 
+    transition: 0.5s;
+  }
+  .h2 {
+    margin-left: 3vw;
+    display: flex;
+  }
+ .photos{
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(600px, 1fr)); 
+  margin-top:10px;
+  
+  justify-content: space-between;
+  
+ }
+ .j{
+    width:420px;
+    height: 300px;
+    margin-top: 10px;
+   
+  
+ 
+  }
+  .d{
+    width:240px;
+    height: 300px;
+    margin-top: 10px;
+    
+  
+ 
+  }
+  
+ .photos{
+  opacity: 0; 
+  animation: animacija 2s ease-out forwards; 
+  max-width: 100%;
+  height: auto;
+}
+
+@keyframes animacija {
+  0% {
+    opacity: 0;
+    transform: scale(0.8); 
+  }
+  
+  100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+ }
+  
+  .onama {
+    padding: 2rem 0;
+    background: #f4f4f4;
+    text-align: center;
+  }
+  
+  .onama h2 {
+    margin-bottom: 1rem;
+  }
+  
+  .highlights {
+    padding: 2rem 0;
+    background: #fff;
+    text-align: center;
+  }
+  
+  .highlights h2 {
+    margin-bottom: 1rem;
+  }
+  
+  .features {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+    margin-top: 2rem;
+  }
+  
+  .usluge {
+    padding: 2rem 0;
+    background: #f4f4f4;
+    text-align: center;
+  }
+
+  .usluge h2 {
+    margin-bottom: 1.5rem;
+  }
+  
+  .service-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 2rem;
+  }
+  
+  .service-table th, td {
+    border: 1px solid #ddd;
+    padding: 1rem;
+    text-align: center;
+  }
+  
+  .service-table th {
+    background: #333;
+    color: #fff;
+  }
+  
+  .service-table tr:nth-child(even) {
+    background: #e9e8e8;
+  }
+  
+  .dugme {
+    padding: 2rem 0;
+    background: #fff;
+    text-align: center;
+  }
+  
+  .dugme h2 {
+    margin-bottom: 1rem;
+  }
+  
+  .dugme .btn {
+    background: #ad6effb9;
+    color: #fff;
+    padding: 0.75rem 1.5rem;
+    text-decoration: none;
+    border-radius: 5px;
+  }
+  
+  .contact-form {
+    padding: 2rem 0;
+    background: #f4f4f4;
+    text-align: center;
+  }
+  
+  .contact-form h2 {
+    margin-bottom: 1.5rem;
+  }
+  
+  .contact-form label {
+    display: block;
+    margin-bottom: 0.5rem;
+    text-align: left;
+  }
+  
+  .contact-form input, textarea {
+    width: 100%;
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  .radio-group {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 1rem;
+  }
+  
+  .radio-group label {
+    cursor: pointer;
+    text-align: center;
+  }
+  
+  #options label {
+    display: block;
+    margin-bottom: 0.5rem;
+  }
+  
+  .contact-form .btn {
+    background: #ad6effb9;
+    color: #fff;
+    padding: 0.75rem 1.5rem;
+    text-decoration: none;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+
+  select {
+    display: block;     
+  margin-left: 0;      
+  width: auto;  
+  margin-top:1vw;
+  margin-bottom:1vw;
+  }
+
+
+ 
+ .forma{
+  opacity: 0; 
+  animation: formina-animacija 2s ease-out forwards; 
+  max-width: 100%;
+  height: auto;
+}
+
+@keyframes formina-animacija {
+  0% {
+    opacity: 0;
+    transform: scale(0.8); 
+  }
+  
+  100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+ }
+  

@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Elizabetique-Kontakt</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+ 
+    <nav class="navbar">
+      <div class="divovi">
+        <a href="index.html" class="logo">Elizabetique</a>
+        <ul class="nav-link">
+          <li id="link"><a href="index.html">Pocetna</a></li>
+          <li id="link"><a href="usluge.html">Usluge</a></li>
+          <li id="link"><a href="#">Kontakt</a></li>
+        </ul>
+        <button class="menu">
+          &#9776;
+        </button>
+      </div>
+    </nav>
+    <header class="heder1">
+      <div class="divovi">
+        <h1>Dobrodosli u salon lepote Elizabetique</h1>
+        <p>Zakazite brzo i lako.</p>
+        <p></p>
+      </div>
+    </header>
+    
+    <section class="contact-form">
+      <div class="divovi">
+        <br><br>
+        <h2>Kontaktirajte Nas</h2>
+        <div class="forma">
+        <form>
+          <label for="name">Ime:</label>
+          <input type="text" id="name" name="name" required />
+
+          <label for="name">Prezime:</label>
+          <input type="text" id="lastname" name="lastname" required />
+
+          <label for="number">Broj Telefona:</label>
+          <input type="number" id="number" name="number" placeholder="+381" />
+
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" placeholder="email@gmail.com" required />
+
+
+
+
+
+          <label> Izaberite Kategoriju: </label>
+          <select name="kategorija" required>
+              <option value=""> Izaberite Iz Menija</option>
+              <option value=""> Šminka</option>
+              <option value=""> Frizura</option>
+        <option value=""> Manikir</option>
+         
+          </select>
+      
+      <label>Termin:</label>
+      <input type="datetime-local">
+      
+          <label> Izaberite Način Plaćanja: </label>
+      <input type="radio" name="pl" value="Karticom"> Karticom
+          <input type="radio" name="pl" value="Gotovinom"> Gotovinom
+      
+      <label> Vas Broj Racuna:</label>
+          <input type="racun" name="broj racuna" placeholder="000-0000000000000" >
+          
+
+
+
+
+
+
+          <label for="message">Vasa poruka:</label>
+          <textarea id="message" name="message" rows="5"></textarea>
+
+          <button type="submit" class="btn">Posalji</button>
+        </form>
+      </div>
+      </div>
+    </section>
+
+    
+    <footer class="footer">
+      <div class="divovi">
+      <p> Zapratite nas na: </p>
+      <a href="https://www.facebook.com/  "> <img src="slike/fb.jpg" width="40" alt="Facebook logo"> </a>
+            <a href="https://www.instagram.com/"> <img src="slike/ig.jpg" width="40" alt="Instagram logo"> </a>
+          </div>
+    </footer>
+
+    
+     
+  </body>
+</html>
